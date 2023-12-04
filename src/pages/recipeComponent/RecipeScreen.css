@@ -1,0 +1,107 @@
+.recipeScreen{
+  grid-column: 1 / 4;
+  grid-row: 5 / 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.orange-btn{
+  height: 40px;
+  width: 120px;
+  box-shadow: 2px 1px 1px grey;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vw;
+
+  border-radius: 3%;
+}
+
+.radioBtn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.nameURL{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quantity{
+  display: flex;
+  grid-gap: 50px;
+}
+
+.ingredients{
+  display: flex;
+  grid-gap: 50px;
+}
+
+.cookTime{
+  display: flex;
+  grid-gap: 5px;
+}
+
+.serves{
+  display: flex;
+  grid-gap: 5px;
+}
+
+.inputSection{
+  grid-gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputIngredients{
+  height: 30px;
+}
+
+.timedEvents{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.inputInstructions{
+  height: 200px;
+  width: 500px;
+  text-align: center;
+  font-size: larger;
+}
+
+.text-size{
+  font-size: x-large;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cook, .bake, .drink{
+  width: 15px;
+  height: 15px;
+}
+
+.cookTime, .prepTime, .serveTime{
+  height: 30px;
+}
+
+.urlInput, .nameInput{
+  height: 30px;
+}

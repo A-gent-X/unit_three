@@ -1,0 +1,33 @@
+.socialMediaIcons{
+  width: 50px;
+  height: 50px;
+}
+
+.footerBar{
+  grid-column: 1 / 4;
+  grid-row: 9 / 9;
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+  background-color: aqua;
+  position: relative;
+  top: 200px;
+  background: linear-gradient(110deg, #fca311 60%,#f77f00 60%);
+}
+
+.circle{
+  height: 80px;
+}
+
+#divNav{
+  justify-content: space-between;
+}
+
+.divNav{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}

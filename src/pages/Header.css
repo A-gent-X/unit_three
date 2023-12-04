@@ -1,0 +1,25 @@
+.navList{
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
+  display: flex;
+  grid-gap: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(70deg, #f77f00  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #fca311 60%, #ff7d00 60%);
+}
+
+.btn{
+  color: white;
+  font-size: x-large;
+}
+
+.secBtn{
+  color: white;
+  font-size: x-large;
+}
+
+.fontSize{
+  font-size: x-large;
+  color: white;
+}

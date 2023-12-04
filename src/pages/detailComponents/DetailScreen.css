@@ -1,0 +1,23 @@
+.detailScreen{
+  grid-column: 1 / 4;
+  grid-row: 3 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.para{
+  height: 80%;
+  display: flex;
+  align-items: center;
+  box-shadow: 3px 1.5px 1.5px lightgrey;
+}
+
+#para{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+  width: 200px;
+  box-shadow: 3px 1.5px 1.5px lightgrey;
+}

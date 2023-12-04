@@ -1,0 +1,26 @@
+@import "./AdBanner.css";
+
+.homeContainer{
+  display: flex;
+  justify-content: center;
+  grid-column: 1 / 4;
+  grid-row: 3 / 9;
+  width: 100%;
+}
+
+.homeScreen{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.searchBar{
+  height: 50px;
+  width: 350px;
+  border-radius: 40%;
+  background-color: lightsalmon;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: x-large;
+}
